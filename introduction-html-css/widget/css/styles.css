@@ -1,0 +1,47 @@
+/* styles.css */
+/* Изменено: Добавлен новый селектор для класса card-content */
+.card {
+  width: 800px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  
+  box-shadow: 1px 1px 7px 1px rgba(187, 177, 177, .65);
+  border: 1px solid #eee;
+  border-radius: 3px;
+  
+  display: flex;
+  align-items: flex-start;
+}
+
+/* Изменено: Добавлен новый селектор для класса card-img */
+.card-img {
+  border: 1px solid #ddd;
+  width: 180px;
+  flex: none;
+}
+
+/* Изменено: Добавлен новый селектор для класса card-content */
+.card-content {
+  margin-left: 30px;
+}
+
+/* Изменено: Добавлен новый селектор для класса card-name */
+.card-name {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+/* Изменено: Добавлены новые селекторы для book-title и authors */
+.book-title {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.authors {
+  display: block;
+  color: #666; /* Сlightly darker gray */
+  font-size: 18px; /* Уменьшен размер шрифта до 18px */
+}
